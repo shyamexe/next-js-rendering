@@ -4,18 +4,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-// import { serverSideFunction } from "@/utils/server-utils";
-
-// export default function ClientRoutePage(){
-//     console.log("Client route rendered");
-//     // const result = serverSideFunction();
-//     return (
-//         <>
-//         <h1>ClientRoutePage</h1>
-//         {/* <p>{result}</p> */}
-//         </>
-//     );
-// }
 
 
 export default function ImageSlider() {
