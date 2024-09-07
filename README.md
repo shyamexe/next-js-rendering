@@ -1,7 +1,7 @@
 # Next-js-rendering
 
 - Server and client components
-
+- Dynamic Rendering
 
 
 
