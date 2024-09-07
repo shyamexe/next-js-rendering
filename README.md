@@ -2,6 +2,7 @@
 
 - Server and client components
 - Dynamic Rendering
+- Streaming
 
 
 
