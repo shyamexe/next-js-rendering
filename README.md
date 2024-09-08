@@ -7,7 +7,7 @@
 - Third Party Packages *
 - Context Providers ***
 - Client-only-code
-
+- Client Component Placement *
 
 
 
