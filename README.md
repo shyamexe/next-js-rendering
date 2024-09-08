@@ -8,6 +8,7 @@
 - Context Providers ***
 - Client-only-code
 - Client Component Placement *
+- Interleaving Server and Client Components *
 
 
 

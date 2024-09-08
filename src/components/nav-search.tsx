@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 export const NavSearch=()=>{
-    const [search, setSearch]=useState("");
-    console.log('NavSearch rendered');
-    return <div>Nav search input</div>
+    const [search,]=useState("");
+    console.log('NavSearch rendered ${search}');
+    return <div>Nav search input {search}</div>
 }
