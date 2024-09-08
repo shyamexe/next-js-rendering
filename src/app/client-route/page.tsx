@@ -17,12 +17,21 @@ import 'slick-carousel/slick/slick-theme.css';
 //     );
 // }
 
+import { useTheme } from '@/components/theme_provider';
+
 
 export default function ImageSlider() {
+    const theme = useTheme();
     const settings = {
       dots: true,
     };
     return (
+        <>
+    <h1 style={
+        {
+            color:theme.colors.primary
+        }
+    }>Client Route</h1>
       <div className="image-slider-container">
         <Slider {...settings}>
           <div>
@@ -39,6 +48,7 @@ export default function ImageSlider() {
           </div>
         </Slider>
       </div>
+      </>
     );
   }
   
